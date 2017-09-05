@@ -1,5 +1,9 @@
 Change Log
 ==========
+### 1.38 - 2017-10-02
+* Added support in CZML for expressing `orientation` as the velocity vector of an entity, using `velocityReference` syntax. [#5807](https://github.com/AnalyticalGraphicsInc/cesium/pull/5807)
+* Fixed CZML processing of `velocityReference` within an interval. [#5738](https://github.com/AnalyticalGraphicsInc/cesium/issues/5738)
+
 ### 1.37 - 2017-09-01
 
 * Breaking changes
